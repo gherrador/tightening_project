@@ -1,0 +1,12 @@
+{
+  "layer": "bronze",
+  "dataset_year": 2025,
+  "dataset_month": 4,
+  "source_stem": "TighteningProduct_April25_250821135226_1",
+  "source_csv_name": "TighteningProduct_April25_250821135226_1.csv",
+  "source_csv_path": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\raw\\TighteningProduct_April25_250821135226_1.csv",
+  "export_ts": "250821135226",
+  "ingested_at_utc": "2026-02-09T20:04:56.669273+00:00",
+  "rows": 49785,
+  "cols": 75
+}

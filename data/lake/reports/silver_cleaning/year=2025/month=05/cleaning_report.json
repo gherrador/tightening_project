@@ -1,0 +1,28 @@
+{
+  "layer": "silver",
+  "dataset_year": 2025,
+  "dataset_month": 5,
+  "source_stem": "TighteningProduct_May25_250821135125_1",
+  "export_ts": "250821135125",
+  "bronze_parquet": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\bronze\\year=2025\\month=05\\source_file=TighteningProduct_May25_250821135125_1\\part-0000.parquet",
+  "silver_parquet": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=05\\part-0000.parquet",
+  "built_at_utc": "2026-02-09T20:05:00.408704+00:00",
+  "cleaning_report": {
+    "rows_in": 65000,
+    "rows_out": 63541,
+    "swapped_min_max": 0,
+    "dropped_zero_block": 1459,
+    "dropped_missing_essentials": 0,
+    "ok_count": 61852,
+    "nok_count": 1689,
+    "review_needed": 0,
+    "issue_counts": {
+      "min_gt_max_swapped": 0,
+      "zero_block_dropped": 1459,
+      "missing_essentials": 0,
+      "zero_tolerance_range": 0
+    }
+  },
+  "rows_out": 63541,
+  "cols_out": 16
+}

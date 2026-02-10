@@ -1,0 +1,43 @@
+{
+  "layer": "gold",
+  "asof": "2025-11",
+  "baseline_window": "12m",
+  "year": 2025,
+  "month": 11,
+  "key_cols": [
+    "STEP_ID"
+  ],
+  "value_col": "FinalTorque",
+  "lsl_col": "TorqueMinTolerance",
+  "usl_col": "TorqueMaxTolerance",
+  "inputs": {
+    "silver_month_dir": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=11",
+    "baseline_silver_dirs": [
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=10",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=09",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=08",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=07",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=06",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=05",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=04",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=03",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=02",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=01",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2024\\month=12",
+      "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\silver\\year=2024\\month=11"
+    ]
+  },
+  "outputs": {
+    "spc_points": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\gold\\spc_points\\year=2025\\month=11\\part-0000.parquet",
+    "spc_alerts": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\gold\\spc_alerts\\year=2025\\month=11\\part-0000.parquet",
+    "spc_limits": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\gold\\spc_limits\\baseline_window=12m\\asof=2025-11\\part-0000.parquet",
+    "capability": "C:\\Users\\ngher\\Desktop\\analisis\\tightening_project\\data\\lake\\gold\\capability\\baseline_window=12m\\asof=2025-11\\part-0000.parquet"
+  },
+  "built_at_utc": "2026-02-07T20:28:18.218960+00:00",
+  "counts": {
+    "points_rows": 63373,
+    "baseline_rows": 0,
+    "limits_rows": 0,
+    "capability_rows": 0
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "layer": "bronze",
+  "dataset_year": 2026,
+  "dataset_month": 1,
+  "source_stem": "TighteningProduct_January26_260203162335_1",
+  "source_csv_name": "TighteningProduct_January26_260203162335_1.csv",
+  "source_csv_path": "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\raw\\TighteningProduct_January26_260203162335_1.csv",
+  "export_ts": "260203162335",
+  "ingested_at_utc": "2026-02-10T16:22:32.492233+00:00",
+  "rows": 74067,
+  "cols": 75
+}

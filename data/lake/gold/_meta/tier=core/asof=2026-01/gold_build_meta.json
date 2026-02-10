@@ -1,0 +1,39 @@
+{
+  "layer": "gold",
+  "version": "capability_v1",
+  "tier": "core",
+  "asof": "2026-01",
+  "baseline_window": "12m",
+  "year": 2026,
+  "month": 1,
+  "key_col": "STEP_ID",
+  "time_col": "DateTime",
+  "value_col": "FinalTorque",
+  "lsl_col": "TorqueMinTolerance",
+  "usl_col": "TorqueMaxTolerance",
+  "min_points": 200,
+  "inputs": {
+    "baseline_silver_dirs": [
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=12",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=11",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=10",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=09",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=08",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=07",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=06",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=05",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=04",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=03",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=02",
+      "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\silver\\year=2025\\month=01"
+    ]
+  },
+  "outputs": {
+    "capability": "C:\\Users\\neri.herrador\\Desktop\\analisis\\analisis\\tightening_project\\data\\lake\\gold\\capability\\tier=core\\baseline_window=12m\\asof=2026-01\\part-0000.parquet"
+  },
+  "built_at_utc": "2026-02-10T16:22:33.928437+00:00",
+  "counts": {
+    "baseline_rows": 473773,
+    "capability_rows": 76
+  }
+}
